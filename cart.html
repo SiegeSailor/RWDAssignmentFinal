@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- 必要資訊 -->
+    <meta charset="UTF-8">
+    <title>六角西餐廳：訂餐</title>
+    <!-- 響應設計 -->
+    <meta name="viewport" content="height=device-height, width=device-width, user-scalable=no, initial-scale=1, shrink-to-fit=no">
+    <!-- 頁籤圖標 -->
+    <link rel="shortcut icon" href="https://cdn3.iconfinder.com/data/icons/social-badges-2/512/github.png">
+    <!-- 次要資訊 -->
+    <meta name="description" content="南臺灣的寶藏">
+    <meta name="keywords" content="漢堡, 美食, 高雄">
+    <!-- 資訊相通：Facebook -->
+    <meta property="og:title" content="六角西餐廳：訂餐">
+    <meta property="og:description" content="南臺灣的寶藏">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="compilation.html">
+    <meta property="og:img" content="img/Map.png">
+    <!-- 頁面渲染：指定之瀏覽器版本 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta http-equiv="X-UA-Compatible" content="Chrome=1">
+    <!-- 匯入資源：FontAwesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <!-- 匯入資源：LightBox -->
+    <link rel="stylesheet" href="css/lightbox-cart.css">
+    <!-- 匯入資源：Animate -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- 匯入資源：自有樣式 -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="layout-wrap">
+        <div class="layout-uppersection">
+            <div class="layout-uppersection-defaultmenu">
+                <a id="layout-uppersection-mobilemenu-showmenu" href="index.html"><i class="fas fa-bars"></i></a>
+                <a id="layout-uppersection-mobilemenu-showmenu-back" href="index.html"><i class="fas fa-backspace"></i></a>
+                <h1><a href="index.html">六角西餐廳</a></h1>
+                <ul>
+                    <li><a href="index.html">特色</a></li>
+                    <li><a href="cart.html">訂餐</a></li>
+                    <li><a href="register.html">註冊</a></li>
+                </ul>
+                <div class="clearfix"></div>
+            </div>
+            <div class="layout-uppersection-mobilemenu">
+                <ul>
+                    <li><a href="index.html">特色</a></li>
+                    <li><a href="cart.html">訂餐</a></li>
+                    <li><a href="register.html">註冊</a></li>
+                </ul>
+                <div class="clearfix"></div>
+            </div>
+            <div class="layout-uppersection-jumbotron">
+                <div class="layout-uppersection-jumbotron-shadow">
+                    <h2 class="layout-uppersection-jumbotron-desktoptitle">咬一口就無法忘懷的漢堡</h2>
+                    <h2 class="layout-uppersection-jumbotron-mobiletitle">咬一口<br>就無法忘懷的漢堡</h2>
+                    <p>七夕絕對無法錯過的好滋味<br><i class="fas fa-utensils"></i>六角大漢堡<i class="fas fa-utensils"></i></p>
+                </div>
+            </div>
+        </div>
+        <div class="cart">
+            <div class="cart-catalog">
+                <i class="fas fa-globe-americas"></i><h4>線上訂購美食</h4>
+                <div class="clearfix"></div>
+                <ul>
+                    <li><a href="#">全部(23)</a></li>
+                    <li><a href="#">只愛吃薯條(18)</a></li>
+                    <li><a href="#">加熱就可食(1)</a></li>
+                    <li><a href="#">不敗漢堡系列(4)</a></li>
+                </ul>
+            </div>
+            <div class="cart-searchbar">
+                <form action="cart.html">
+                    <input type="text" name="search">
+                    <button type="submit"><i class="fas fa-search"></i></button>
+                </form>
+            </div>
+            <div class="cart-checkout">
+                <ul>
+                    <li class="cart-checkout-signtext">結帳去</li>
+                    <li class="cart-checkout-line"></li>
+                    <li class="cart-checkout-trolley">
+                        <i class="fas fa-shopping-cart"><div class="cart-checkout-trolley-number">1</div></i>
+                    </li>
+                </ul>
+            </div>
+            <div class="cart-card">
+                <ul>
+                    <li>
+                        <span class="cart-card-heart"><i class="far fa-heart cart-card-heart-selector"></i></span>
+                        <div class="cart-card-tag"><div class="cart-card-tag-ribbon">熱銷美食</div></div>
+                        <a href="img/product_1@2x.png" data-lightbox="cart-card-lightbox" data-title="經典漢堡套餐"><span class="cart-card-overlay"></span><img src="img/product_1.png" alt="經典漢堡套餐"></a>
+                        <h3>經典漢堡套餐</h3>
+                        <p>Classic Hamburger Package</p>
+                        <div class="cart-card-line"></div>
+                        <div class="cart-card-price">$120</div>
+                        <div class="cart-card-addbutton"><i class="fas fa-shopping-cart"></i>加入購物車</div>
+                    </li>
+                    <li>
+                        <span class="cart-card-heart"><i class="far fa-heart cart-card-heart-selector"></i></span>
+                        <a href="img/product_2@2x.png" data-lightbox="cart-card-lightbox" data-title="英俊香腸"><span class="cart-card-overlay"></span><img src="img/product_2.png" alt="英俊香腸"></a>
+                        <h3>英俊香腸</h3>
+                        <p>Handsome Sausage</p>
+                        <div class="cart-card-line"></div>
+                        <div class="cart-card-price">$1,024</div>
+                        <div class="cart-card-addbutton"><i class="fas fa-shopping-cart"></i>加入購物車</div>
+                    </li>
+                    <li>
+                        <span class="cart-card-heart"><i class="far fa-heart cart-card-heart-selector"></i></span>
+                        <a href="img/product_3@2x.png" data-lightbox="cart-card-lightbox" data-title="漢堡兄弟"><span class="cart-card-overlay"></span><img src="img/product_3.png" alt="漢堡兄弟"></a>
+                        <h3>漢堡兄弟</h3>
+                        <p>Hamburg Brothers</p>
+                        <div class="cart-card-line"></div>
+                        <div class="cart-card-price">$792</div>
+                        <div class="cart-card-addbutton"><i class="fas fa-shopping-cart"></i>加入購物車</div>
+                    </li>
+                    <li>
+                        <span class="cart-card-heart"><i class="far fa-heart cart-card-heart-selector"></i></span>
+                        <a href="img/product_4@2x.png" data-lightbox="cart-card-lightbox" data-title="完美願望"><span class="cart-card-overlay"></span><img src="img/product_4.png" alt="完美願望"></a>
+                        <h3>完美願望</h3>
+                        <p>Dragon Ball Package</p>
+                        <div class="cart-card-line"></div>
+                        <div class="cart-card-price">$999,999</div>
+                        <div class="cart-card-addbutton"><i class="fas fa-shopping-cart"></i>加入購物車</div>
+                    </li>
+                    <div class="clearfix"> </div>
+                </ul>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="layout-lowersection">
+            <div class="layout-lowersection-introduction">
+                <ul>
+                    <li>
+                        <h3>關於  六角西餐廳</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse voluptates aspernatur, temporibus accusantium velit nam?</p>
+                    </li>
+                    <li>
+                        <h3>聯絡方式</h3>
+                        <ul>
+                            <li>• 高雄市中正五路到底</li>
+                            <li>• +886 886 886</li>
+                            <li>• service@hexschool.com</li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="clearfix"></div>
+            </div>
+            <div class="layout-lowersection-socialmedia">
+                <h3><a href="index.html">六角西餐廳</a></h3>
+                <div class="clearfix"></div>
+                <ul>
+                    <li><a href="index.html"><i class="fab fa-google-plus-square"></i></a></li>
+                    <li><a href="index.html"><i class="fab fa-twitter-square"></i></a></li>
+                    <li><a href="index.html"><i class="fab fa-facebook-square"></i></a></li>
+                </ul>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <!-- 匯入資源：jQuery -->
+    <script type="text/javascript " src="js/jquery-3.3.1.js"></script>
+    <!-- 匯入資源：LightBox -->
+    <script src="js/lightbox.js "></script>
+    <!-- 匯入資源：自有程式 -->
+    <script src="js/jquery.js "></script>
+</body>
+
+</html>
